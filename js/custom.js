@@ -81,7 +81,10 @@ jQuery(function($) {
          itemsDesktopSmall : [980,3],
          itemsTablet: [768,2],
          itemsTabletSmall: false,
-         itemsMobile : [479,1]
+         itemsMobile : [479,1],
+         video : true,
+         videoWidth: 300, // Default false; Type: Boolean/Number
+         videoHeight: 200, // Default false; Type: Boolean/Number
 
       });
 
@@ -185,7 +188,7 @@ jQuery(function($) {
    /*  Contact map
    /* ----------------------------------------------------------- */
 
-      $("#map").gmap3({
+      /*$("#map").gmap3({
         map:{
             options:{
                center:[-37.8152065,144.963937],
@@ -225,7 +228,7 @@ jQuery(function($) {
             }
           }
         }
-      });
+      });*/
 
    /* ----------------------------------------------------------- */
    /*  Contact form
